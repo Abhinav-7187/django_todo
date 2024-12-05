@@ -1,4 +1,4 @@
-Creating a basic "To-Do List Application" in Django. This project will be helpful for understanding the following important concepts:
+**Creating a basic "To-Do List Application" in Django. This project will be helpful for understanding the following important concepts:**
 
 1. Setting up a Django project and app.
 2. Models and database integration.
@@ -7,7 +7,7 @@ Creating a basic "To-Do List Application" in Django. This project will be helpfu
 5. Form handling.
 6. Basic CRUD operations.
 
-Features Implemented:
+**Features Implemented:**
 
 1. Dynamic task display (Model + ORM).
 2. Form submission (HTML forms + POST requests).
