@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Main container for content */
+.container {
+    max-width: 700px; /* Increased width */
+    width: 90%; /* Makes it responsive */
+    margin: 20px auto; /* Centered on the page */
+    background: #fff;
+    border-radius: 12px; /* Slightly rounder edges */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* More padding for spacing */
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Task list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete link */
+ul li a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #c0392b;
+}
+
+/* Add task form styling */
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Space between input and button */
+    margin-top: 20px;
+    justify-content: center; /* Centering form items */
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 2; /* Input takes more space */
+    max-width: 450px; /* Prevents it from becoming too wide */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 1; /* Button balances with input */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+/* Link to go back */
+a.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a.back-link:hover {
+    color: #2980b9;
+}
+
